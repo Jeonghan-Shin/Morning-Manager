@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/check_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:checked="false"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/list_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/list_delete_btn"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxWidth="2dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_delete" />
+
+</LinearLayout>

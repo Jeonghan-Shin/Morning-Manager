@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jjrjh\\Documents\\Java_Project\\AndroidSW_Project\\TermProject\\orgsmartrobotandroid8154\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jjrjh\\Documents\\Java_Project\\AndroidSW_Project\\TermProject\\orgsmartrobotandroid8154\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "1,1",
+                        "startOffsets": "14,61",
+                        "endColumns": "45,52",
+                        "endOffsets": "58,112"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,55",
+                        "endOffsets": "99,155"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\jjrjh\\Documents\\Java_Project\\AndroidSW_Project\\TermProject\\orgsmartrobotandroid8154\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jjrjh\\Documents\\Java_Project\\AndroidSW_Project\\TermProject\\orgsmartrobotandroid8154\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "1,1",
+                        "startOffsets": "14,61",
+                        "endColumns": "45,52",
+                        "endOffsets": "58,112"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,55",
+                        "endOffsets": "99,155"
+                    }
+                }
+            ]
+        }
+    ]
+}

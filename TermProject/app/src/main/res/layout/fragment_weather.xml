@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/area_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:background="#84C2F3"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/info_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9FDDE6"
+        android:choiceMode="singleChoice" />
+</LinearLayout>

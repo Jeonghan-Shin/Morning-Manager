@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:background="#84C2F3"
+        android:text="@string/alarm"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/alarm_div_tv"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="--"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/alarm_time_tv"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="--  :  --"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:id="@+id/setAlarm_btn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/set_alarm"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/releaseAlarm_btn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/off_alarm"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
